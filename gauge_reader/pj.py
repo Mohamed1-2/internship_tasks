@@ -20,8 +20,7 @@ def zoom(image, zoom_factor=2):
 
 
 
-v_path="D:\phthon\opencv_pj\WIN_20220405_11_28_55_Pro.mp4"
-print("Accessing Video Stream")
+v_path="" # Paste the vid path here 
 vs = cv2.VideoCapture(v_path)
 if vs :
     print("Accessing Video Stream")
@@ -34,13 +33,14 @@ max_angle = 0.0
 needle_angel_=0.0
 while True :
   (grabbed , frame ) = vs.read()
-  # if the frame not grabbing means that we reach the end
+  # important if con to check if the vid reach the end
   if not grabbed :
-    print("No frame read from the steam")
+    print("No frame read from the vid")
     break
   # resize the frame , convert it to grayscale , bluer it and then do edge detection
   frame =  imutils.resize(frame,width= 450)
-  # # new line
+    
+  # using gamma correction to adjut the frame to appear lighter 
   frame= adjust_gamma(frame,gamma=1.4)
   cv2.imwrite("gamma_frame.jpg",frame)
   gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
