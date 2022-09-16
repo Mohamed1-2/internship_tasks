@@ -32,16 +32,15 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 | Project name | Description |
 | --- | --- |
-| Water surface detection | trained transfer learning model to detect Water surface in pumphouse and draw a mask around water surface class using MASK-RCNN   |
+| Water surface detection | trained transfer learning model to detect Water surface in pumphouse and draw a mask around water surface class using MASK-RCNN model |
   - **Model Result** 🥳
-     | **number of steps** | **loss value** |
+     | **number of steps** | **val loss value** |  
      | --- | --- |
-     | 1 | 1.251216888 |
-     | 2| 0.384225965 |
-     |3 | 0.23431322 |
-     | 4| 0.181663856 |
+     | 1 |0.975083411
+     | 2|0.646316946
+     |3 |0.603483021
+     | 4|0.601662695
 
-     
      
   -  **Demo 🖼️** 
         -  Video
@@ -93,7 +92,15 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 | Project name | Description |
 | --- | --- |
-| [Task 1] | List all new or modified files |
+| Identity card detection 👁️| The aim of the project is to detect employees id cards of westren digital company and extract employees id numbers using pre-trined model to detect the cards and open cv techniques extract the id number  |
+
+  - **Model Result** 🥳
+     | **number of steps** | **val loss value** |  
+     | --- | --- |
+     | 1 |0.871458054
+     | 2|0.616355062
+     |3 |0.391975462
+  -  **Demo 🖼️** 
 
 * ## [Task 4](#team-members)
 
