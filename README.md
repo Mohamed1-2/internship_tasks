@@ -32,7 +32,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 | Project name | Description |
 | --- | --- |
-| Water surface detection | trained transfer learning model to detect Water surface in pumphouse and draw a mask around water surface class using MASK-RCNN model |
+| Water surface detection 💧 | trained transfer learning model to detect Water surface in pumphouse and draw a mask around water surface class using MASK-RCNN model |
   - **Model Result** 🥳
      | **number of steps** | **val loss value** |  
      | --- | --- |
@@ -92,7 +92,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 | Project name | Description |
 | --- | --- |
-| Identity card detection 👁️| The aim of the project is to detect employees id cards of westren digital company and extract employees id numbers using pre-trined model to detect the cards and open cv techniques extract the id number  |
+| Identity card detection 👁️| The aim of the project is to detect employees id cards of westren digital company using MASK-RCNN and extract employees id numbers using opencv techniques .  |
 
   - **Model Result** 🥳
      | **number of steps** | **val loss value** |  
@@ -101,7 +101,16 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
      | 2|0.616355062
      |3 |0.391975462
   -  **Demo 🖼️** 
+       -  Images 
+           #### <img src="https://user-images.githubusercontent.com/34875234/190845243-6718f760-f1b5-4add-87b4-54a238fa620a.jpg" alt="imag1" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845245-151c249e-5d92-48d6-990f-33a1874bd392.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845477-023c27f2-329e-49ec-bd30-af1cd99f482d.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845485-dd833028-29d9-4646-aa66-38464886c47e.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868935-7b84effa-75df-4e39-ab36-0d75112367a0.png" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868938-7cd84682-3d12-4fe6-abd2-3f4c57743db5.png" alt="imag2" width="150"/>
 
+
+          
+
+
+
+        -  Video
+           #### <img src="https://user-images.githubusercontent.com/34875234/190844373-97530afc-6708-4a71-9d17-aebaec5658aa.gif" alt="gif" width="550"/>
 * ## [Task 4](#team-members)
 
 | Project name | Description |
