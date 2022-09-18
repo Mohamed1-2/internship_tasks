@@ -104,8 +104,13 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
        -  Images 
            #### <img src="https://user-images.githubusercontent.com/34875234/190845243-6718f760-f1b5-4add-87b4-54a238fa620a.jpg" alt="imag1" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845245-151c249e-5d92-48d6-990f-33a1874bd392.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845477-023c27f2-329e-49ec-bd30-af1cd99f482d.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845485-dd833028-29d9-4646-aa66-38464886c47e.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868935-7b84effa-75df-4e39-ab36-0d75112367a0.png" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868938-7cd84682-3d12-4fe6-abd2-3f4c57743db5.png" alt="imag2" width="150"/>
 
+  -  **Procedure** 🧾
+         1. a very small dataset used with 20 images for employees IDs .
+         2. Annotated the company logo from the images using the same tool in the prevoius project .
+         3. Built a model to detect bounding box on id cards images.
+         4. use yolo object detection to fine the employee imatge 
+         5. extract the text from the card using opencv ocr tesseract.
 
-          
 
 
 
