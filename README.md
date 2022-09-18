@@ -104,18 +104,40 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
        -  Images 
            #### <img src="https://user-images.githubusercontent.com/34875234/190845243-6718f760-f1b5-4add-87b4-54a238fa620a.jpg" alt="imag1" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845245-151c249e-5d92-48d6-990f-33a1874bd392.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845477-023c27f2-329e-49ec-bd30-af1cd99f482d.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845485-dd833028-29d9-4646-aa66-38464886c47e.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868935-7b84effa-75df-4e39-ab36-0d75112367a0.png" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868938-7cd84682-3d12-4fe6-abd2-3f4c57743db5.png" alt="imag2" width="150"/>
 
-  -  **Procedure** 🧾
-         1. a very small dataset used with 20 images for employees IDs .
-         2. Annotated the company logo from the images using the same tool in the prevoius project .
-         3. Built a model to detect bounding box on id cards images.
-         4. use yolo object detection to fine the employee imatge 
-         5. extract the text from the card using opencv ocr tesseract.
-
 
 
 
         -  Video
-           #### <img src="https://user-images.githubusercontent.com/34875234/190844373-97530afc-6708-4a71-9d17-aebaec5658aa.gif" alt="gif" width="550"/>
+           #### <img src="https://user-images.githubusercontent.com/34875234/190903758-fc80df46-a920-498d-a963-229352dd480f.gif" alt="gif" width="550"/>
+
+
+  -  **Procedure 🧾** 
+
+       1. a very small dataset used with 20 images for employees IDs .
+       2. Annotated the company logo from the images using the same tool that used in the prevoius project .
+       3. Built a model to detect bounding box on id cards images.
+       4. yolo object detection used to detect the employee image.
+       5. extract the text from the card using opencv ocr tesseract.
+       
+   -  **Method 🛠**
+         - **For logo detection** 
+              Mask-rcnn model built using the same steps in task 2, the model will draw a boundary box on the logo if detected, then we used the logo's boundary box and multiplying it by 3 in lengths,the new boundary box will be the region of interest . So we'll crop that region for the next step.
+
+              - **detected card: (example)** :      
+                  #### <img src="https://user-images.githubusercontent.com/34875234/190917384-b6d5565d-093b-4d30-9a6c-7b82a2d382cf.jpg" alt="img" width="350"/>
+                  #### <img src="https://user-images.githubusercontent.com/34875234/190917256-9b92dcfa-7c90-4e09-a7e7-33a3ffdca75b.jpg" alt="img" width="350"/>
+
+         - **For ID number detection**
+               I used yolo to detect the employee's photo, then if the id contains an image, take the image's boundary box and multiply it by 2 in length then crop the image.
+              - **Cropped card ROI: (example)** :
+                  #### <img src="https://user-images.githubusercontent.com/34875234/190915295-e0d926a0-b1d8-457a-bbe7-9660e08d4d9b.jpg" alt="img" width="350"/>
+
+         - **For Text extraction** 
+             Using **opencv ocr tesseract** on the cropped image after grayscale it to extract whole the text under the image including the employee name. Text is filtered to only keep numbers in the length of 5 numbers or more.  
+              
+              - **grayscale Cropped card: (example)** :
+                  #### <img src="https://user-images.githubusercontent.com/34875234/190922123-5cceb660-7e5c-4420-b380-42c79b7cca17.jpg" alt="img" width="350"/>
+
 * ## [Task 4](#team-members)
 
 | Project name | Description |
