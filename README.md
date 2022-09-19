@@ -166,3 +166,15 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
         #### <img src="https://user-images.githubusercontent.com/34875234/190944917-c7143852-1715-400a-9b5c-3f547cf92e9e.gif" alt="gif" width="550"/>
 
+-  **Procedure 🧾** 
+
+      Using a the following pre-trained model from OPENVINO :
+        
+      - [description_pedestrian_and_vehicle_detector_adas_0001](https://docs.openvino.ai/2019_R1/_pedestrian_and_vehicle_detector_adas_0001_description_pedestrian_and_vehicle_detector_adas_0001.html) which is a detection network for finding vehicles and pedestrians.
+
+     - **Run on Colab** 🟡
+        - Note ⚠️ 
+      
+           Need to install       ```opencv-python-inference-engine```
+     
+           open [notebook](https://colab.research.google.com/drive/1UvmmzGPl_OEQU0kxD_bRQBvMZmnZIqYR?usp=sharing)
