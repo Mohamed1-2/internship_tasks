@@ -28,11 +28,12 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
          #### <img src="https://user-images.githubusercontent.com/34875234/189687456-7465803a-b216-4715-9032-0eac025d38ea.gif" alt="gif" width="550"/>
 
 
-* ## [Task 2](#team-members)
+- ## [Task 2](#team-members)
+  - **Task Overall** 📋
 
-| Project name | Description |
-| --- | --- |
-| Water surface detection 💧 | trained transfer learning model to detect Water surface in pumphouse and draw a mask around water surface class using MASK-RCNN model |
+     | Project name | Description |
+     | --- | --- |
+     | Water surface detection 💧 | trained transfer learning model to detect Water surface in pumphouse and draw a mask around water surface class using MASK-RCNN model |
   - **Model Result** 🥳
      | **number of steps** | **val loss value** |  
      | --- | --- |
@@ -40,6 +41,8 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
      | 2|0.646316946
      |3 |0.603483021
      | 4|0.601662695
+     
+     Download the Model 👉[Here](https://drive.google.com/file/d/1-QzM_gaox0MCepqhxkHYfHDFPSVed1D0/view?usp=sharing)
 
      
   -  **Demo 🖼️** 
@@ -53,7 +56,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
          - **steps**
            |**1-Dataset**          | **2-Annotation**         | 3- **model configuration**          |**4-Train**          |**5-Test**          |**6-repate**         | 
            | --- | --- | --- | --- | --- | --- |
-           |a small dataset used contains around 150 images taken from 2 different videos |Annotate the entire dataset in coco format  using a polygon shape |Before training the dataset modify the confieg function   | In order to train the model you need to download the Mask Rcnn trained weights from [here](https://drive.google.com/file/d/1HFLlPs-8yXu-30hkU920liAvMgOLc5kW/view?usp=sharing) and modify the epochs numbers ,start with 2 epochs and see if the model improved then add more epochs.| Test the model on real-world visual data that is not annotated | repeat steps 4 and 5 until you get high accurate model           **_NOTE:_** Better to use Tensorboard|
+           |a small dataset used contains around 150 images taken from 2 different videos |Annotate the entire dataset in coco format  using a polygon shape |Before training the dataset modify the confieg function   | In order to train the model you need to download the Mask Rcnn trained weights from 👉 [here](https://drive.google.com/file/d/1HFLlPs-8yXu-30hkU920liAvMgOLc5kW/view?usp=sharing) and modify the epochs numbers ,start with 2 epochs and see if the model improved then add more epochs.| Test the model on real-world visual data that is not annotated | repeat steps 4 and 5 until you get high accurate model           **_NOTE:_** Better to use Tensorboard|
            |    [Dataset Link](https://drive.google.com/drive/folders/16J4JmzTWBp2-YCivTmWgllaJLDeYl5oS?usp=sharing)       | <img src="https://user-images.githubusercontent.com/34875234/190351355-ed81da70-e8a0-402d-9e6a-a642ed147b19.gif" alt="gif" width="500"/> |  ```  class myMaskRCNNConfig(Config): NUM_CLASSES = 1 + 1 STEPS_PER_EPOCH = 100 DETECTION_MIN_CONFIDENCE = 0.85 ``` | | [Test dataset Link](https://drive.google.com/drive/folders/1qYXXTgcR77F_4sdiMveo97CqwBtl_idx?usp=sharing) |
    -  **requirements ⚠️**
        - **Need Python 3.5 or later with all the following dependencies installed :**
@@ -88,11 +91,12 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 
 
-* ## [Task 3](#team-members)
+- ## [Task 3](#team-members)
+  - **Task Overall** 📋
 
-| Project name | Description |
-| --- | --- |
-| Identity card detection 👁️| The aim of the project is to detect employees id cards of westren digital company using MASK-RCNN and extract employees id numbers using opencv techniques .  |
+     | Project name | Description |
+     | --- | --- |
+     | Identity card detection 👁️| The aim of the project is to detect employees id cards of westren digital company using MASK-RCNN and extract employees id numbers using opencv techniques .  |
 
   - **Model Result** 🥳
      | **number of steps** | **val loss value** |  
@@ -100,6 +104,9 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
      | 1 |0.871458054
      | 2|0.616355062
      |3 |0.391975462
+     
+     Download the Model 👉[Here](https://drive.google.com/file/d/1-ASdYCR17o6vLmwKEwX2IOMGd1C_d7FN/view?usp=sharing)
+     
   -  **Demo 🖼️** 
        -  Images 
            #### <img src="https://user-images.githubusercontent.com/34875234/190845243-6718f760-f1b5-4add-87b4-54a238fa620a.jpg" alt="imag1" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845245-151c249e-5d92-48d6-990f-33a1874bd392.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845477-023c27f2-329e-49ec-bd30-af1cd99f482d.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190845485-dd833028-29d9-4646-aa66-38464886c47e.jpg" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868935-7b84effa-75df-4e39-ab36-0d75112367a0.png" alt="imag2" width="150"/><img src="https://user-images.githubusercontent.com/34875234/190868938-7cd84682-3d12-4fe6-abd2-3f4c57743db5.png" alt="imag2" width="150"/>
@@ -157,10 +164,10 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 
 * ## [Task 4](#team-members)
-
-| Project name | Description |
-| --- | --- | 
-| vehicle and pedestrians detection | Using openvino pre-trained model to detect vehicle and pedestrians in videos  |
+  - **Task Overall** 📋
+     | Project name | Description |
+     | --- | --- |
+     | vehicle and pedestrians detection | Using openvino pre-trained model to detect vehicle and pedestrians in videos  |
 
   -  **Demo 🖼️** 
 
