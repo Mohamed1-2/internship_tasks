@@ -115,7 +115,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 
         -  Video
-           #### <img src="https://user-images.githubusercontent.com/34875234/190903758-fc80df46-a920-498d-a963-229352dd480f.gif" alt="gif" width="550"/>
+           #### <img src="https://user-images.githubusercontent.com/34875234/190959708-03c9a1ce-88ef-4ddf-91f5-87f2bf88c6df.gif" alt="gif" width="550"/>
 
 
   -  **Procedure 🧾** 
