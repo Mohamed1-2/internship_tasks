@@ -60,16 +60,16 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
            |    [Dataset Link](https://drive.google.com/drive/folders/16J4JmzTWBp2-YCivTmWgllaJLDeYl5oS?usp=sharing)       | <img src="https://user-images.githubusercontent.com/34875234/190351355-ed81da70-e8a0-402d-9e6a-a642ed147b19.gif" alt="gif" width="500"/> |  ```  class myMaskRCNNConfig(Config): NUM_CLASSES = 1 + 1 STEPS_PER_EPOCH = 100 DETECTION_MIN_CONFIDENCE = 0.85 ``` | | [Test dataset Link](https://drive.google.com/drive/folders/1qYXXTgcR77F_4sdiMveo97CqwBtl_idx?usp=sharing) |
    -  **requirements ⚠️**
        - **Need Python 3.5 or later with all the following dependencies installed :**
-     
-     
-     tensorflow==1.13.1
-     h5py==2.10.0
-     keras==2.0.8
-     scikit-image==0.16.2
-     opencv-python
-     Pillow==8.0.1
-     pandas
-     numpy
+            ```
+            tensorflow==1.13.1
+            h5py==2.10.0
+            keras==2.0.8
+            scikit-image==0.16.2
+            opencv-python
+            Pillow==8.0.1
+            pandas
+            numpy
+            ```
    
    - **Run on Colab** 🟡
        
