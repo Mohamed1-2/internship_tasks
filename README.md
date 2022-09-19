@@ -28,7 +28,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
          #### <img src="https://user-images.githubusercontent.com/34875234/189687456-7465803a-b216-4715-9032-0eac025d38ea.gif" alt="gif" width="550"/>
 
 
-- ## [Task 2](#team-members)
+- ## [Task 2](https://github.com/Mohamed1-2/internship_tasks/tree/main/water%20surface%20detection)
   - **Task Overall** 📋
 
      | Project name | Description |
@@ -91,7 +91,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
 
 
 
-- ## [Task 3](#team-members)
+- ## [Task 3](https://github.com/Mohamed1-2/internship_tasks/tree/main/ID_card_detection)
   - **Task Overall** 📋
 
      | Project name | Description |
@@ -163,7 +163,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
         To run the project locally follow the same steps in Task 2.
 
 
-* ## [Task 4](#team-members)
+* ## [Task 4](https://github.com/Mohamed1-2/internship_tasks/tree/main/vehicle_and_pedestrians_detection)
   - **Task Overall** 📋
      | Project name | Description |
      | --- | --- |
