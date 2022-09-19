@@ -137,9 +137,32 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
               
               - **grayscale Cropped card: (example)** :
                   #### <img src="https://user-images.githubusercontent.com/34875234/190922123-5cceb660-7e5c-4420-b380-42c79b7cca17.jpg" alt="img" width="350"/>
+   - **Run on Colab** 🟡
+   
+        Run
+        
+        ```python 
+        wget https://pjreddie.com/media/files/yolov3.weights
+        ```
+      
+        in root project directory to get yolo weights
+
+        
+        Then open [notebook](https://colab.research.google.com/drive/17OBnGGGkGkUGFT_LfaC0fRqLvaHjuOgj?usp=sharing)
+
+   - **Run Locally** 💻
+  
+      
+        To run the project locally follow the same steps in Task 2.
+
 
 * ## [Task 4](#team-members)
 
 | Project name | Description |
-| --- | --- |
-| [Task 1] | List all new or modified files |
+| --- | --- | 
+| vehicle and pedestrians detection | Using openvino pre-trained model to detect vehicle and pedestrians in videos  |
+
+  -  **Demo 🖼️** 
+
+        #### <img src="https://user-images.githubusercontent.com/34875234/190944917-c7143852-1715-400a-9b5c-3f547cf92e9e.gif" alt="gif" width="550"/>
+
