@@ -153,7 +153,7 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
         ```      
         in root project directory to get yolo weights
 
-        And Download [Coco.names.txt](https://github.com/Mohamed1-2/internship_tasks/blob/main/ID_card_detection/Notebook/coco.names.txt)
+        And Download the text file of the classes [Coco.names.txt](https://github.com/Mohamed1-2/internship_tasks/blob/main/ID_card_detection/Notebook/coco.names.txt) with model config file [yolov3.cfg](https://github.com/Mohamed1-2/internship_tasks/blob/main/ID_card_detection/Notebook/yolov3.cfg.txt) 
 
         Then open [notebook](https://colab.research.google.com/drive/17OBnGGGkGkUGFT_LfaC0fRqLvaHjuOgj?usp=sharing)
 
