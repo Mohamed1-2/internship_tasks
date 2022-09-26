@@ -150,11 +150,11 @@ I completed a 6-month  internship from March 2022 to September 2022 with AI Team
         
         ```python 
         wget https://pjreddie.com/media/files/yolov3.weights
-        ```
-      
+        ```      
         in root project directory to get yolo weights
 
-        
+        And Download [Coco.names.txt](https://github.com/Mohamed1-2/internship_tasks/blob/main/ID_card_detection/Notebook/coco.names.txt)
+
         Then open [notebook](https://colab.research.google.com/drive/17OBnGGGkGkUGFT_LfaC0fRqLvaHjuOgj?usp=sharing)
 
    - **Run Locally** 💻
